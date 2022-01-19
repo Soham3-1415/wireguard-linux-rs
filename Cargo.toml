@@ -1,0 +1,31 @@
+[package]
+name = "wireguard_linux"
+version = "0.1.0"
+authors = ["Soham Roy <sohamroy@sohamroy.me>"]
+edition = "2021"
+rust-version = "1.56.0"
+description = "Linux ffi wrapper for Wireguard"
+# documentation = ""
+readme = "README.md"
+# homepage = ""
+# repository = ""
+license = "MIT"
+# license-file = ""
+keywords = ["cryptography", "authentication", "network-programming"]
+categories = ["cryptography", "authentication", "network-programming"]
+# workspace = ""
+# build = "build.rs"
+# links = ""
+# exclude = []
+# include = []
+publish = true
+# default-run = ""
+# autobins = true
+# autoexamples = true
+# autotests = true
+# autobenches = true
+# resolver = "2"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", default-features = false, features = ["derive"] }
